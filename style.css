@@ -1,0 +1,105 @@
+*{margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei";}
+
+body{background-color: #dedede;}
+
+header{position: fixed;
+	top: 0px;
+	left: 0;
+	background-image: url(car.png);
+	background-size: 70px 60px;
+	background-position: 3% 0;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 60px;
+	background-color: #333;}
+header h1{display: none;}
+header ul{float: right;}	
+header li{float: left;
+	margin: 18px 18px 0 0;}
+header li a{text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;}
+header li a:hover{color: #ccc;}
+
+main{margin: 80px auto 0;}
+article,dl{margin: 20px;
+	padding:30px 20px;
+	background-color: #fff;
+	line-height: 2;
+    border: solid 1px #cdcdcd;
+    box-shadow: 2px 2px 2px #9f9f9f;}
+article p{text-indent: 2em;
+	font-size: 15px;}
+article h3,addr,span{color: #666}
+article addr,span{font-size: 13px;}
+article ul{list-style: none;
+	font-size: 15px;}
+article ul li{font-size: 15px;}
+article img{width: 300px;
+	height: 300px;}
+article ol{margin-left: 45px;}
+article table{width: 100%;
+              border: none;
+              border-collapse: collapse;
+              font-size: 14px;
+              text-align: left;
+              border: solid 1px #ccc;}
+article table caption{text-align: left;
+	font-size: 15px;}
+article table tr th{background-color: #333;
+			color: #fff;
+			padding: 0px 5px;}
+article table tr td{padding: 0px 5px;}
+#lastrow{background-color: #ccc;
+	font-weight: bold;}
+dl dd{border: solid 1px #cecece;
+	padding: 15px;
+	width: 200px;
+	margin: 20px 60px;}
+dl dd img{width: 200px;
+	      height: 200px;}
+dl dd p{text-align: center;}
+
+aside{margin: 20px;
+	padding:30px 20px 15px;
+	background-color: #fff;
+	line-height: 2;
+    border: solid 1px #cdcdcd;
+    box-shadow: 2px 2px 2px #9f9f9f;}
+aside{margin-top: 40px;
+      margin-right: 40px;}
+aside h2{border-left: solid 3px #ccc;
+	padding-left: 15px;}
+aside form table{font-size: 14px;
+	width: 100%;}
+aside form table td{vertical-align: top;}
+#td1,#td3,#td4{text-align:right;
+	padding: 10px;
+	padding-right: 650px}
+#td6,#td7,#td8{padding: 10px;
+	padding-left: 412px;}
+	#td2,#td5{padding: 10px;
+		padding-left: 460px;
+		padding-top: 0px;
+		color: #777}
+	#td9{padding: 10px;
+		padding-left: 385px;}
+	#td10 input{width: 100%;
+		height: 40px;
+		background-color: #35c;
+		font-size: 15px;
+		color: #fff;
+		font-weight: bold;
+		border: solid 2px #35c;
+		border-radius: 10px;
+		padding: 0;}
+footer{width:100%;
+	height: 60px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+    font-size: 12px;
+    padding-top: 15px;}
