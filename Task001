@@ -104,7 +104,7 @@
 	    			<tr>
 	    				<td>
 	    				<label for='email'>请输入邮箱地址：</label>
-	    				<input type="text" id="email" name="email" value="请在此输入正确邮箱地址">
+	    				<input type="text" id="email" name="email" placeholder="请在此输入正确邮箱地址">
 	    				</td>
 	    			</tr>
 	    			<tr>
@@ -113,9 +113,9 @@
 	    			<tr>
 	    				<td>
 	    				<label for='password1'>请输入密码：</label>
-	    				<input type="text" id="password1" name="password1" value="请在此输入密码">
+	    				<input type="text" id="password1" name="password1" placeholder="请在此输入密码">
 	    				<label for='password2'>请再次输入密码：</label>
-	    				<input type="text" id="password2" name="password2" value="请重复上次密码">
+	    				<input type="text" id="password2" name="password2" placeholder="请重复上次密码">
 	    				</td>
 	    			</tr>
 	    			<tr>
@@ -144,7 +144,7 @@
                          <input type="checkbox" name="science" value="科学" id="science">
                          <label for='science'>科学</label>
                          <label for='myself'>个人描述：</label>
-                         <textarea name="myself" id="myself" cols="30" rows="2">请在此输入个人描述……</textarea>
+                         <textarea name="myself" id="myself" cols="30" rows="2" placeholder="请在此输入个人描述……"></textarea>
                          <input type="submit" value="确认提交">
 	    				</td>
 	    			</tr>
